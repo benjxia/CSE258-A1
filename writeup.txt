@@ -1,0 +1,1 @@
+Used the rankFM package for played prediction, baseline for time prediction
