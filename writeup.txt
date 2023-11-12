@@ -1,1 +1,7 @@
-Used the rankFM package for played prediction, baseline for time prediction
+Feature engineering: Used the mean values for compensation and early access, some people might only play games they got for free.
+Used latent dirichlet allocation topic modeling to represent each game as a vector of topics based on the review text.
+
+Used the rankFM package for played prediction - tried to implement this from scratch with BPR loss - it worked - but it converged slowly so I
+switched to rankFM for its WARP loss.
+
+Recycled my factorization machine from played prediction (that converged slowly) and adapted it for hours prediction, same features, nothing special.
