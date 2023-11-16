@@ -4,4 +4,6 @@ Used latent dirichlet allocation topic modeling to represent each game as a vect
 Used the rankFM package for played prediction - tried to implement this from scratch with BPR loss - it worked - but it converged slowly so I
 switched to rankFM for its WARP loss.
 
-Recycled my factorization machine from played prediction (that converged slowly) and adapted it for hours prediction, same features, nothing special.
+Used same features as above with a fastFM for time played (after a lot of hyperparameter tuning).
+
+Hyperparameter tuning done with 20-fold cross validation on train.json.gz
